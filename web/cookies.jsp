@@ -1,14 +1,3 @@
-<%
-    // Create cookes for first and last names.
-    Cookie firstName = new Cookie("first_name",
-                           request.getParameter("first_name"));
-    Cookie lastName = new Cookie("last_name",
-                           request.getParameter("last_name"));
-    
-    // Set expiry date after 24 Hrs for both the cookies.
-    firstName.setMaxAge(60*60*24);
-    lastName.setMaxAge(60*60*24);    
-    %>
 <!DOCTYPE html>
 <html>
     <head>
