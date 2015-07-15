@@ -16,5 +16,7 @@
         <h2>The include Action Example</h2>
         <jsp:include page="date.jsp" flush="true" />
     </center>
+    
+    
     </body>
 </html>
